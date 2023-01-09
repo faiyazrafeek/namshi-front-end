@@ -266,7 +266,7 @@ section#going-out{
     }
 
     .w-7{
-        margin: 0;
+        margin: 0 5%;
     }
 
 
@@ -323,7 +323,7 @@ section#going-out{
     /* Nav End */
 
     /* Section Start  */
-    section{
+    section#hero{
         padding: 48px 18px 48px;
     }
 
@@ -340,7 +340,7 @@ section#going-out{
         font-size: 20px;
         line-height: 1.4;
         margin-bottom: 32px;
-        padding: 0 ;
+        padding: 0 18px ;
     }
 
     section h4{
@@ -381,7 +381,7 @@ section#going-out{
     }
     /* Section End  */
 
-    /* Mobile Responsive Start */
+    /* Mobile Menu Start */
     .mobile-menu{
         position: fixed;
         bottom: 0;
@@ -420,7 +420,7 @@ section#going-out{
         font-size: 38px;
         color: #b7b7b7;
     }
-    /* Mobile Responsive End */
+    /* Mobile Menu End */
   }
 
   @media (max-width: 460px) {
@@ -432,8 +432,12 @@ section#going-out{
     /* Nav End */
 
     /* Section Start  */
-    section{
+    section#hero{
         padding: 48px 18px 48px;
+    }
+
+    section{
+        padding: 48px 0;
     }
 
     section h1{
@@ -465,7 +469,7 @@ section#going-out{
     }
     /* Section End  */
 
-    /* Mobile Responsive Start */
+    /* Mobile Menu Start */
     .mobile-menu .menu-item span {
         font-size: 10px;
     }
@@ -474,6 +478,6 @@ section#going-out{
     .mobile-menu .menu-item .bx{
         font-size: 32px;
     }
-    /* Mobile Responsive End */
+    /* Mobile Menu End */
 
   }
