@@ -1,5 +1,5 @@
 # NAMSHI Front End Development
 
-##Used Technologies
+## Used Technologies
 - HTML
 - CSS
