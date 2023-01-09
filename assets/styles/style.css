@@ -319,7 +319,7 @@ section#going-out{
     }
 
     section h1{
-        font-size: 45px;
+        font-size: 42px;
         margin-bottom: 16px;
     }
 
@@ -363,7 +363,7 @@ section#going-out{
     }
 
     .sub-section-card p{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
         line-height: 1.4;
     }
@@ -372,4 +372,43 @@ section#going-out{
         margin-bottom: 128px;
     }
     /* Section End  */
+
+    .mobile-menu{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid #cfcfcf;
+        padding: 12px 0 ;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #b7b7b7;
+        background: #fff;
+    }
+
+    .mobile-menu .menu-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .mobile-menu .menu-item:hover .bx {
+        color: #000;
+        cursor: pointer;
+    }
+
+    .mobile-menu .menu-item span {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .mobile-menu .menu-item:hover span {
+        color: #000;
+    }
+    
+    .mobile-menu .menu-item .bx{
+        font-size: 38px;
+        color: #b7b7b7;
+    }
   }
