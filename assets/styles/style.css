@@ -113,6 +113,10 @@ header .header-right .searchbar input{
     border-top: 2px solid #cfcfcf;
 }
 
+.hr-solid-full{
+    border-top: 2px solid #cfcfcf;
+}
+
 /* Header End */
 
 /* Navbar Start */
@@ -196,7 +200,10 @@ section#going-out{
 }
 /* Section End  */
 
+
+/* Mobile Responsive */
 @media (max-width: 855px) {
+    /* Nav Start */
     nav{
         overflow: scroll;
      }
@@ -204,13 +211,16 @@ section#going-out{
      nav::-webkit-scrollbar{
          display: none;
      }
+    /* Nav End */
 
-     
+    /* Header Start */
+
     header .header-right .searchbar input{
-        width: 300px;
-        
+        width: 300px;  
     }
+    /* Header End */
 
+    /* Section Start  */
     section h1{
         font-size: 52px;
     }
@@ -221,6 +231,7 @@ section#going-out{
     
     section p.main{
         font-size: 24px;
+        padding: 0;
     }
     
     section h4{
@@ -244,10 +255,10 @@ section#going-out{
     .w-7{
         margin: 0;
     }
+    /* Section End  */
+
 }
 
-
-/* Mobile Responsive */
 @media (max-width: 640px) {
     body{
         margin: 0 ;
@@ -274,9 +285,9 @@ section#going-out{
     .site-logo, .header-right .searchbar, .header-right .icons, .hr-solid-full, .hero-span{
         display: none;
     }
-
     /* Header End */
 
+    /* Nav Start */
     nav{
        overflow: scroll;
     }
@@ -309,8 +320,6 @@ section#going-out{
         color: var(--black);
         background: #fff;
     }
-
-   
     /* Nav End */
 
     /* Section Start  */
@@ -347,7 +356,6 @@ section#going-out{
         margin: 48px 0;
     }
 
-
     .sub-section-container{
         margin: 0 18px ;
         display: grid;
@@ -373,6 +381,7 @@ section#going-out{
     }
     /* Section End  */
 
+    /* Mobile Responsive Start */
     .mobile-menu{
         position: fixed;
         bottom: 0;
@@ -411,4 +420,60 @@ section#going-out{
         font-size: 38px;
         color: #b7b7b7;
     }
+    /* Mobile Responsive End */
+  }
+
+  @media (max-width: 460px) {
+    
+    /* Nav Start */
+    nav .navlinks .nav-item a{    
+        font-size: 18px;
+    }
+    /* Nav End */
+
+    /* Section Start  */
+    section{
+        padding: 48px 18px 48px;
+    }
+
+    section h1{
+        font-size: 36px;
+    }
+
+    section h2{
+        font-size: 26px;
+    }
+
+    section p.main{
+        font-size: 16px;
+    }
+
+    section h4{
+        font-size: 18px;
+    } 
+
+    .sub-section-container{
+        grid-gap: 8px;
+    }
+
+    .sub-section-card img{
+        max-width: 100px;
+    }
+
+    .sub-section-card p{
+        font-size: 9px;
+    }
+    /* Section End  */
+
+    /* Mobile Responsive Start */
+    .mobile-menu .menu-item span {
+        font-size: 10px;
+    }
+
+    
+    .mobile-menu .menu-item .bx{
+        font-size: 32px;
+    }
+    /* Mobile Responsive End */
+
   }
